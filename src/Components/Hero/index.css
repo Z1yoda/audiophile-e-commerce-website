@@ -1,0 +1,63 @@
+.hero-wrapper {
+  max-width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.heroBg {
+  margin: 120px 0 0 -1120px;
+}
+
+.left-wrapper {
+  color: rgb(255, 255, 255);
+  margin: 256px 711.83px 128px 0;
+  max-width: 398px;
+  width: 398px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.left-wrapper h4 {
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  width: 396px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+}
+
+.left-wrapper p {
+  font-size: 15px;
+  color: rgb(255, 255, 255, 0.75);
+  width: 349px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.button {
+  width: 160px;
+  height: 48px;
+  background: rgb(216, 125, 74);
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.left-wrapper button:hover {
+  background-color: rgb(251, 175, 133);
+}

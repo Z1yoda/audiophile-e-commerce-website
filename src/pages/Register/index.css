@@ -1,0 +1,30 @@
+.box {
+  position: relative;
+  width: 600px;
+  margin: 187px auto 0;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blackLogo {
+  margin-bottom: 50px;
+}
+
+.box h4 {
+  font-weight: 600;
+  color: #d87d4a;
+}
+
+.error {
+  margin-top: 5px;
+  color: red;
+  text-align: center;
+}
+
+.box p {
+  color: black;
+  text-align: center;
+}

@@ -1,0 +1,105 @@
+.products-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.product-wrapper {
+  background-image: url(../../assets/images/homeProucts/desktop/circles.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 138.28px;
+  height: 560px;
+  border-radius: 8px;
+  background-color: rgb(216, 125, 74);
+}
+
+.left-product {
+  margin: 96px 0 -29px 117.49px;
+}
+
+.left-product img {
+  height: 464px;
+}
+
+.right-product {
+  color: #fff;
+  width: 349px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 170px 95px 124px 0;
+}
+
+.right-product button:hover {
+  background-color: rgb(76, 76, 76);
+}
+
+.right-product h2 {
+  width: 261px;
+}
+
+.right-product button {
+  width: 168px;
+  padding: 15px 29.5px 15px 31.5px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.product-wrapper2 {
+  border-radius: 8px;
+  padding: 101px 0 101px 95px;
+  background-image: url("../../assets/images/homeProucts/desktop/speaker3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.product-wrapper2 h5,
+.product-wrapper3 h5 {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.product-wrapper2 button,
+.product-wrapper3 button {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+}
+
+.product-wrapper2 button:hover,
+.product-wrapper3 button:hover {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+}
+
+.product-wrapper3 {
+  display: flex;
+  gap: 30px;
+}
+
+.left-product3 img {
+  border-radius: 8px;
+}
+
+.right-product3 {
+  border-radius: 8px;
+  background: rgb(241, 241, 241);
+  width: 540px;
+  height: 320px;
+  padding: 101px 200px 101px 95px;
+}
+
+.footerTop {
+  width: 1110px;
+  height: 588px;
+}

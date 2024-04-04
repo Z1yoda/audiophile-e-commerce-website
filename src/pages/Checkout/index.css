@@ -1,0 +1,162 @@
+.checkout-wrapper {
+  padding-top: 95px;
+  background-color: rgb(242, 242, 242);
+}
+
+.checkoutForm h6 {
+  margin: 79px 0 38px;
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.form-wrapper {
+  width: 730px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 54px 48px 48px;
+}
+
+.form-wrapper h1 {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.14px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.form-wrapper h2 {
+  margin-top: 41px;
+  color: rgb(216, 125, 74);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.93px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.form {
+  background-color: #fff;
+  max-width: 730px;
+  height: auto;
+  padding: 48px 48px;
+}
+
+.formTitle {
+  margin-bottom: 41px;
+}
+
+.form__error {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: -0.214286px;
+  color: #cd2c2c;
+}
+
+.formSubtitle {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.928571px;
+  text-transform: uppercase;
+  color: #d87d4a;
+  grid-column: 1/-1;
+  margin-bottom: -8px;
+}
+
+.formLabel {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: #000000;
+}
+
+.formInput,
+.formPaymentOption {
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  height: 56px;
+  padding-left: 24px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: #000000;
+}
+
+.formInput:focus {
+  outline: none;
+  border: 1px solid #d87d4a;
+}
+
+.formName {
+  grid-column: 1;
+}
+
+.formShippingInfo,
+.formBilling,
+.formPayment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 53px;
+  grid-auto-rows: min-content;
+  grid-column-gap: 16px;
+  grid-row-gap: 24px;
+}
+
+.formRadio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #fff;
+  background-clip: content-box;
+}
+
+.formRadio:checked {
+  background-color: #d87d4a;
+}
+
+.formPaymentOption {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  opacity: 1;
+}
+
+.formCashInfo {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.invalidInput:focus {
+  border: 2px solid #cd2c2c !important;
+}
+
+::placeholder {
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: #000000;
+  opacity: 0.4;
+}
